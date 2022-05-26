@@ -1,4 +1,4 @@
-package com.example.solution;
+package Java.Medium;
 
 import java.io.*;
 import java.util.*;
@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
-public class Solution {
+public class Array_List_Problem {
 
     public static void main(String[] args) throws IOException {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
