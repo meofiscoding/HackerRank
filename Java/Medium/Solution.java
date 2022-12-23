@@ -1,4 +1,4 @@
-package com.company;
+package Java.Medium;
 
 import java.util.*;
 

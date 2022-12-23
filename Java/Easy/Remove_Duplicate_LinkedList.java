@@ -1,7 +1,6 @@
 package Java.Easy;
 
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 
 class Node {
     int data;
