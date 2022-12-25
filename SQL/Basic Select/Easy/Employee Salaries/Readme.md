@@ -10,7 +10,7 @@ where employee_id is an employee's ID number, name is their name, months is the 
 
 #### Sample Input#### 
 
-!(https://s3.amazonaws.com/hr-challenge-images/19630/1458558612-af3da3ceb7-ScreenShot2016-03-21at4.32.59PM.png)
+![](https://s3.amazonaws.com/hr-challenge-images/19630/1458558612-af3da3ceb7-ScreenShot2016-03-21at4.32.59PM.png)
 
 #### Sample Output#### 
 
