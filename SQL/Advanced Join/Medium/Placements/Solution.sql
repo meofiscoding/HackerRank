@@ -1,0 +1,21 @@
+-- person & corresponding friend & salary
+WITH A AS(
+    SELECT
+        F.ID,
+        S.NAME AS PERSON_NAME,
+        F.FRIEND_ID,
+        P.SALARY AS FRIEND_SALARY
+    FROM
+        FRIENDS  F
+        INNER JOIN PACKAGES P
+        ON F.FRIEND_ID = P.ID
+        INNER JOIN STUDENTS S
+        ON F.ID = S.ID
+)
+SELECT A.PERSON_NAME
+FROM
+    A
+    INNER JOIN PACKAGES P
+    ON A.ID = P.ID
+WHERE P.SALARY < A.FRIEND_SALARY
+ORDER BY A.FRIEND_SALARY
