@@ -1,24 +1,10 @@
-SELECT
-    CASE
-        WHEN EXISTS (
-            SELECT
-                T.A,
-                T.B INTERSECT
-                SELECT
-                    T.B,
-                    T.C
-        ) THEN
-            'Isoceles'
-        WHEN (A IN (B, C)
-        AND B != C ) OR (B IN (A, C)
-        AND C != A) THEN
-            'Equilateral'
-        -- check if sum of 2 column greater than other column
-        WHEN (A + B < C AND A + C < B AND B + C < A) THEN
-            'Not A Triangle'
-        ELSE
-            'Scalene'
-    END
-FROM
-    TRIANGLES AS T 
-    
+select *, CASE
+        when (A + B > C OR A + C > B OR B + C > A) THEN
+            CASE
+                when (A = B AND B = C) THEN 'Equilateral'
+                when (A = B OR B = C OR A = C) THEN 'Isosceles'
+                else 'Scalene'
+            END
+        else 'Not A Triangle'
+    END AS TriangleType
+from Triangles
