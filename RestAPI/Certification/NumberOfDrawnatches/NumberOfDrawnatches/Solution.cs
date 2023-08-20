@@ -101,7 +101,6 @@ class Result
 
             fetchTasks.AddRange(batchTasks);
         }
-
         // Wait for all tasks to complete
         Task.WhenAll(fetchTasks).Wait();
 
@@ -119,8 +118,6 @@ class Result
 
         return result;
     }
-
-    // Rest of the code remains the same
 
     private static int GetTotalPages(string url)
     {
@@ -178,17 +175,17 @@ class Result
     {
         public static void Main(string[] args)
         {
-            TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
             int year = Convert.ToInt32(Console.ReadLine().Trim());
 
             int result = Result.getNumDraws(year);
 
-            // Console.WriteLine(result);
-            textWriter.WriteLine(result);
+            Console.WriteLine(result);
+            //textWriter.WriteLine(result);
 
-            textWriter.Flush();
-            textWriter.Close();
+            //textWriter.Flush();
+            //textWriter.Close();
         }
     }
 
