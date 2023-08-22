@@ -11,9 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/Javascript/Certificate/Basic/ChampionsLeagueTeams.js",
-            "console": "integratedTerminal",
-            "args": ["arg1", "arg2"],
+            "program": "${workspaceFolder}/Javascript/Certificate/Basic/ChampionsLeagueTeams.js"
         }
     ]
 }
