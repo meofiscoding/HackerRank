@@ -24,7 +24,7 @@ class Result
 
     public static int birthdayCakeCandles(List<int> candles)
     {
-        return candles.Count(x=> x == candles.Max());
+        return candles.Count(x => x == candles.Max());
     }
 
 }
