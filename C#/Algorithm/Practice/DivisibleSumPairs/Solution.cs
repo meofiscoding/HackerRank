@@ -27,12 +27,14 @@ class Result
 
     public static int divisibleSumPairs(int n, int k, List<int> ar)
     {
+        // using frequency mapping to count the occurrences of remainders when dividing each element of the array by k. Then, you can use these counts to calculate the number of valid pairs efficiently.
+        int[] frequency = new int[k];
         int count = 0;
         for (int i = 0; i < n; i++)
         {
-            for (int j = i+1; j < n; j++)
-                if ((ar[i] + ar[j]) % k == 0)
-                    count++;
+            int remainder = ar[i] % k;
+            count += frequency[(k - remainder) % k];
+            frequency[remainder]++;
         }
         return count;
     }
