@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisibleSumPairs", "Divisi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staircase", "Staircase\Staircase.csproj", "{35C4C1DF-4474-4D26-9A35-3E344108A305}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleandOrange", "AppleandOrange\AppleandOrange.csproj", "{347E3636-5CB2-4DCA-8551-E25F51F9C556}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{35C4C1DF-4474-4D26-9A35-3E344108A305}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35C4C1DF-4474-4D26-9A35-3E344108A305}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35C4C1DF-4474-4D26-9A35-3E344108A305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347E3636-5CB2-4DCA-8551-E25F51F9C556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347E3636-5CB2-4DCA-8551-E25F51F9C556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347E3636-5CB2-4DCA-8551-E25F51F9C556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347E3636-5CB2-4DCA-8551-E25F51F9C556}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
