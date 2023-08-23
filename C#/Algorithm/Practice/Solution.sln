@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeConversion", "TimeConve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LonelyInterger", "LonelyInterger\LonelyInterger.csproj", "{C40824EF-F6E2-4CEB-98B3-F8AD89AF7A05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flippingbits", "Flippingbits\Flippingbits.csproj", "{4A96F5FD-CE4D-422F-A88A-45A8DD0260C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{C40824EF-F6E2-4CEB-98B3-F8AD89AF7A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C40824EF-F6E2-4CEB-98B3-F8AD89AF7A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C40824EF-F6E2-4CEB-98B3-F8AD89AF7A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A96F5FD-CE4D-422F-A88A-45A8DD0260C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A96F5FD-CE4D-422F-A88A-45A8DD0260C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A96F5FD-CE4D-422F-A88A-45A8DD0260C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A96F5FD-CE4D-422F-A88A-45A8DD0260C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
