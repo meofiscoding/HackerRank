@@ -22,6 +22,9 @@ class Result
      *
      * The function is expected to return an INTEGER.
      * The function accepts 2D_INTEGER_ARRAY matrix as parameter.
+     * The fact that an element (N - 1, N - 1) can be only in (0, 0), (N - 1, 0) or (0, N - 1) position.
+     * Consider an (r, c) element. 
+     One can observe that it can only be in one of the following four positions: (r, c), (N - r - 1, c), (r, N - c - 1) or (N - 1 - r, N - 1 - c)
      */
 
     public static int flippingMatrix(List<List<int>> matrix)
