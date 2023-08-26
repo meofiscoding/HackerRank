@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 void findZigZagSequence(vector < int > a, int n){
