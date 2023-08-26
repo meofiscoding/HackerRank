@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridChallenge", "GridChalle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SherlockAndArray", "SherlockAndArray\SherlockAndArray.csproj", "{D5F90D60-7774-4A2E-91A7-E61F00F4E9A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveDigitSum", "RecursiveDigitSum\RecursiveDigitSum.csproj", "{62B034E0-EA69-4209-8D94-815A049BA7AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{D5F90D60-7774-4A2E-91A7-E61F00F4E9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5F90D60-7774-4A2E-91A7-E61F00F4E9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5F90D60-7774-4A2E-91A7-E61F00F4E9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B034E0-EA69-4209-8D94-815A049BA7AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B034E0-EA69-4209-8D94-815A049BA7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B034E0-EA69-4209-8D94-815A049BA7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B034E0-EA69-4209-8D94-815A049BA7AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
