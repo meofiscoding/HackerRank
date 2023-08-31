@@ -37,10 +37,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermutingTwoArrays", "Permu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubarrayDivision1", "SubarrayDivision1\SubarrayDivision1.csproj", "{B7179B08-DF5A-40D1-995B-869C1451D1EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheMedian", "FindTheMedian\FindTheMedian.csproj", "{B2B0BC0A-5F86-4284-9282-13110C29509E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlippingTheMatrix", "FlippingTheMatrix\FlippingTheMatrix.csproj", "{F7E025C3-968A-4358-91CA-E48808B8287E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingBook", "DrawingBook\DrawingBook.csproj", "{08B5EC35-686B-4C73-AAFF-761FDCE6A71E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerBreakers", "TowerBreakers\TowerBreakers.csproj", "{08F987E9-55A8-41F7-960E-69356FFD6781}"
@@ -135,14 +131,6 @@ Global
 		{B7179B08-DF5A-40D1-995B-869C1451D1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7179B08-DF5A-40D1-995B-869C1451D1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7179B08-DF5A-40D1-995B-869C1451D1EC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2B0BC0A-5F86-4284-9282-13110C29509E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2B0BC0A-5F86-4284-9282-13110C29509E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2B0BC0A-5F86-4284-9282-13110C29509E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2B0BC0A-5F86-4284-9282-13110C29509E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7E025C3-968A-4358-91CA-E48808B8287E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7E025C3-968A-4358-91CA-E48808B8287E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7E025C3-968A-4358-91CA-E48808B8287E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7E025C3-968A-4358-91CA-E48808B8287E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{08B5EC35-686B-4C73-AAFF-761FDCE6A71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{08B5EC35-686B-4C73-AAFF-761FDCE6A71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08B5EC35-686B-4C73-AAFF-761FDCE6A71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
